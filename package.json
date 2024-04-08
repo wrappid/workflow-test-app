@@ -1,0 +1,51 @@
+{
+  "name": "wrappid-app",
+  "version": "0.0.9",
+  "description": "This is a boilerplate application using wrappid for both web and mobile application.",
+  "scripts": {
+    "attributions:gen": "node ./scripts/attributions.gen.js",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "code:lint": "eslint --ignore-path .gitignore .",
+    "code:format": "npm run code:lint -- --fix .",
+    "prepare": "husky install",
+    "release": "standard-version --bumpFiles ./package.json ./package-lock.json "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrappid/wrappid-app.git"
+  },
+  "keywords": [
+    "wrappid",
+    "react",
+    "react-native",
+    "hybrid",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/wrappid/wrappid-app/issues"
+  },
+  "author": {
+    "name": "Wrappid",
+    "email": "wrappid.framework@gmail.com",
+    "url": "https://www.github.com/wrappid"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "~17.5.0",
+    "@commitlint/config-conventional": "~17.4.4",
+    "@commitlint/prompt-cli": "~17.5.0",
+    "@wrappid/core": "0.0.447",
+    "@wrappid/native-mobile": "0.0.239",
+    "@wrappid/native-web": "0.0.284",
+    "@wrappid/styles": "0.0.138",
+    "eslint": "~8.56.0",
+    "eslint-plugin-etc": "~2.0.3",
+    "eslint-plugin-import": "~2.27.5",
+    "eslint-plugin-react": "~7.32.2",
+    "eslint-plugin-sort-keys-fix": "~1.1.2",
+    "eslint-plugin-unused-imports": "~2.0.0",
+    "husky": "~8.0.3",
+    "standard-version": "~9.5.0",
+    "license-checker": "~25.0.1"
+  }
+}

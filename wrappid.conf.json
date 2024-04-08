@@ -1,0 +1,44 @@
+{
+    "dev": {
+        "environment": "development",
+        "platform": "web",
+        "defaultRoute": "defaultRoute",
+        "defaultAuthenticatedRoute": "defaultAuthRoute",
+        "defaultLayout": "WrappidAppLayout",
+        "defaultAuthenticatedLayout": "AppContainerLayout",
+        "backendUrl": "",
+        "webUrl": "http://localhost:3000",
+        "drawerWidth": 240,
+        "miniDrawerWidth": 56,
+        "snackMessage": false,
+        "otpLength": 6
+    },
+    "stage": {
+        "environment": "stage",
+        "platform": "web",
+        "defaultRoute": "defaultRoute",
+        "defaultAuthenticatedRoute": "defaultAuthRoute",
+        "defaultLayout": "WrappidAppLayout",
+        "defaultAuthenticatedLayout": "AppContainerLayout",
+        "backendUrl": "https://demoapi.wrappid.dev",
+        "webUrl": "http://localhost:3000",
+        "drawerWidth": 240,
+        "miniDrawerWidth": 56,
+        "snackMessage": false,
+        "otpLength": 6
+    },
+    "prod": {
+        "environment": "production",
+        "platform": "web",
+        "defaultRoute": "defaultRoute",
+        "defaultAuthenticatedRoute": "defaultAuthRoute",
+        "defaultLayout": "WrappidAppLayout",
+        "defaultAuthenticatedLayout": "AppContainerLayout",
+        "backendUrl": "",
+        "webUrl": "http://localhost:3000",
+        "drawerWidth": 240,
+        "miniDrawerWidth": 56,
+        "snackMessage": false,
+        "otpLength": 6
+    }
+}

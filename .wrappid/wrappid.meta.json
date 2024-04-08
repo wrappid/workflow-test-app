@@ -1,0 +1,23 @@
+{
+  "projectType": "app",
+  "projectID": "",
+  "projectName": "wrappid-app",
+  "wrTemplateVersion": "0.0.9",
+  "remote": true,
+  "repoProvider": "github.com",
+  "repoOwner": "wrappid",
+  "repoURL": "https://github.com/wrappid/wrappid-app.git",
+  "modules": {
+    "guide": {
+      "projectID": "",
+      "projectName": "guide",
+      "remote": true,
+      "repoProvider": "github.com",
+      "repoOwner": "wrappid",
+      "repoURL": "https://github.com/wrappid/guide-module.git",
+      "app": {
+        "renderType": []
+      }
+    }
+  }
+}
