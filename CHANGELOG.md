@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.10 (2024-04-18)
+
+
+### Features
+
+* **config:** :white_check_mark: test commit for PR creation ([8c2b5de](https://github.com/wrappid/wrappid-app/commit/8c2b5de26f14e73a6504930287670ca1ab311b76)), closes [#1](https://github.com/wrappid/wrappid-app/issues/1)
+
 ### [0.0.9](https://github.com/wrappid/wrappid-app/compare/v0.0.8...v0.0.9) (2024-04-08)
 
 
