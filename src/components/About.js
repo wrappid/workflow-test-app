@@ -85,7 +85,7 @@ export default function About() {
 
             <CoreBox>
               <CoreTypographyBody1>
-                {`Versions: ${version ? version : "0.0.1"}`}  &nbsp; | &nbsp;
+                {`Versions: ${version ? version : "Version not found"}`}  &nbsp; | &nbsp;
 
                 <CoreLink href={author?.url ? author?.url : ""}>Author</CoreLink> &nbsp; | &nbsp;
 
