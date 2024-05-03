@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/wrappid/wrappid-app/compare/v0.0.12...v0.0.13) (2024-05-03)
+
+
+### Features
+
+* **config:** :sparkles: add .versionrc.json standard version config ([2c35a4f](https://github.com/wrappid/wrappid-app/commit/2c35a4fd956f4c3a792aafd8ec9fb0ce725c75df))
+
 ### [0.0.12](https://github.com/wrappid/wrappid-app/compare/v0.0.11...v0.0.12) (2024-04-19)
 
 ### [0.0.11](https://github.com/wrappid/wrappid-app/compare/v0.0.10...v0.0.11) (2024-04-18)
